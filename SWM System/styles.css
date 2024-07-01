@@ -1,0 +1,117 @@
+/* Custom styles */
+
+/* Navbar */
+.navbar-brand img {
+    margin-right: 10px;
+  }
+  
+  .hero {
+    background-color: #5d8a64; /* Dark green background */
+    color: #ffffff;
+    padding: 100px 0;
+  }
+  
+  .btn-primary-custom {
+    background-color: #4b6d52; /* Dark green button */
+    border-color: #4b6d52;
+  }
+  
+  .bg-green-custom {
+    background-color: #d5e8d2; /* Light green background */
+    color: #000000;
+    padding: 80px 0;
+  }
+  
+  .bg-light-custom {
+    background-color: #f0f9f0; /* Very light green background */
+    color: #000000;
+    padding: 80px 0;
+  }
+  
+  .section {
+    padding: 50px 0;
+  }
+  
+  .schedule-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  .schedule-table th,
+  .schedule-table td {
+    border: 1px solid #000000;
+    padding: 8px;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #ffffff;
+    padding: 30px 0;
+  }
+  
+  .footer-logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .footer-logo span {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .government-links {
+    text-align: right;
+  }
+  
+  .government-links ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .government-links ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Slider */
+  .slider-container {
+    position: relative;
+    overflow: hidden;
+    height: 400px;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  
+  .slide {
+    flex: 0 0 100%;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .slider-dots {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #000000;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .dot.active {
+    background-color: #ffffff;
+  }
+  
